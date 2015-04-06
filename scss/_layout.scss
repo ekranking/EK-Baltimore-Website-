@@ -1,0 +1,75 @@
+/* Layout.scss */
+
+nav[role="navigation"] {
+    position: fixed;
+    max-width: 600px;
+    text-align: center;
+    top: 0;
+    // bottom 0;
+    // left: 0;
+    // right: 0;
+    width: 100%;
+        
+}
+
+header[role="banner"] {
+    background-color: #FFFFFF;
+    margin: 100px 0 140px 0;
+}
+
+header[role="banner"], main[role="main"] {
+    max-width: 100px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    width: 100%;
+    
+    //.row:after {
+    //clear: both;
+    //content: "";
+    //display: table;
+//}
+    //.outer {
+    //width: 100%;
+//}
+}
+
+//@media screen and (min-width: 1024px) {
+//    body {
+//        margin: 0 auto;
+//        max-width: 1024px;
+//        width: 100%
+//    }
+//
+//    nav[role="navigation"] {
+//        position: static;
+//        width: 100%;
+//    }
+//    header[role="banner"], main[role="main"] {
+//        max-width: 1024px;
+//    }
+//    header[role="banner"] {
+//        box-sizing: border-box;
+//        float: left;
+//        padding-right: 40px;
+//        width: 40%;
+//
+//    }
+//    main[role="main"] {
+//            float: right;
+//            width: 60%;
+//    }
+//    footer[role="contentinfo"] {
+//        float: left;
+//        width: 100%;
+//    }
+//}
+
+
+.cafe-location, .food-location, 
+.attractions-location {
+    margin-bottom: em(75px);
+    &:last-of-type {
+        margin-bottom: em(150px);
+    }
+}
+
