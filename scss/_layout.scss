@@ -13,13 +13,12 @@ nav[role="navigation"] {
 }
 
 header[role="banner"] {
-    background-color: #FFFFFF;
     margin: 100px 0 140px 0;
 }
 
 header[role="banner"], main[role="main"] {
-    max-width: 100px;
-    background-color: #FFFFFF;
+    max-width: 1000px;
+    //background-color: #FFFFFF;
     background-size: cover;
     width: 100%;
     

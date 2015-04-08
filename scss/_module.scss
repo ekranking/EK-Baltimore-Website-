@@ -30,8 +30,8 @@ header[role="banner"] svg {
 
 main[role="main"] {
     box-sizing: border-box;
-    padding: 0 104px;
-    @media screen and (min-width: 1024px) {
+    padding: 55 500px;
+    @media screen and (min-width: 3000px) {
         padding: 0;
     }
 }
@@ -76,7 +76,7 @@ abbr[title="Maryland"] {
 
 .tel {
     display: block;
-    &:after {
+    &:before {
         content: "p. ";
         @include headline-font;
     }

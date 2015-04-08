@@ -34,9 +34,9 @@ section h1 {
     font-size: em(70px);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 5000px) {
     body {
-        color: pink;
+        color: black;
     }
     section h1 {
         font-size: em(150px);
